@@ -1,0 +1,20 @@
+.cover {
+  background: url(img/haikei.jpg);
+  background-size: cover;
+}
+
+/* body  {
+  background: #242232;
+  color: #fff;
+} */
+
+.fas {
+  color: #FA2672;
+}
+
+.skel {}
+
+.createimg {
+  width: auto;
+  max-height: 300px;
+}
