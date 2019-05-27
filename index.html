@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Press+Start+2P|Roboto" rel="stylesheet">
+  <link rel="shortcut icon" href="img/lasina.png">
 
   <title>LassieenaPortfolio</title>
 </head>
@@ -46,70 +47,99 @@
 
   <main>
     <!-- 紹介 -->
-    <section class="py-3" id="skil">
-      <p class="text-center">webプログラマーになりたい学生です。<br>基本的にフロントエンドとサーバーサイドの勉強中です。</p>
+    <section class="py-3 container" id="skil">
+      <h2 class="introduction mb-5">自己紹介</h2>
+      <p class="">webプログラマーになりたい学生です。<br>基本的にフロントエンドとサーバーサイドの勉強中です。</p>
     </section>
 
     <!-- プログラミング・スキル -->
     <section class="container skel">
       <div class="row">
-        <div class="col-sm-7 col-lg-5 py-3 BG">
-          <h2>プログラミング言語(勉強中)</h2>
-          <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>JavaScript</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>PHP</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Java</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Ruby</li>
-          </ul>
+        <div class="col-sm-6 col-lg-4 py-3 ">
+          <div class="card border-info mb-3" style="max-width: 23rem;">
+            <div class="card-header">プログラミング言語</div>
+            <p class="card-text">
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>JavaScript</li>
+                <progress value="60" max="100"></progress>
+                <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>PHP</li>
+                <progress value="40" max="100"></progress>
+                <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Java</li>
+                <progress value="20" max="100"></progress>
+                <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Ruby</li>
+                <progress value="15" max="100"></progress>
+              </ul>
+            </p>
+          </div>
         </div>
-        <div class="col-sm-5 col-lg-3 py-3 BG">
-          <h2>スキル</h2>
-          <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>HTML5</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>CSS3</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Photoshop</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Illustrator</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>AdobeXD</li>
-          </ul>
+        <div class="col-sm-6 col-lg-4 py-3">
+          <div class="card border-info mb-3" style="max-width: 23rem;">
+            <div class="card-header">スキル</div>
+            <p class="card-text">
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>HTML5/CSS3</li>
+              <progress value="75" max="100"></progress>
+              <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Photoshop</li>
+              <progress value="45" max="100"></progress>
+              <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Illustrator</li>
+              <progress value="55" max="100"></progress>
+              <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>AdobeXD</li>
+              <progress value="50" max="100"></progress>
+            </ul>
+          </p>
+          </div>
         </div>
-        <div class="col-sm-12 col-lg-4 py-3 BG">
-          <h2>資格</h2>
-          <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Microsoft Office Specialist Word 2016 取得</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Microsoft Office Specialist Excel 2016 取得</li>
-            <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Microsoft Office Specialist PowerPoint 2016 取得</li>
-          </ul>
+        <div class="col-sm-6 col-lg-4 py-3">
+          <div class="card border-info mb-3" style="max-width: 23rem;">
+            <div class="card-header">資格</div>
+            <p class="card-text">
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Microsoft Office Specialist Word 2016</li>
+              <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Microsoft Office Specialist Excel 2016</li>
+              <li><span class="fa-li"><i class="fas fa-fw fa-angle-double-right"></i></span>Microsoft Office Specialist PowerPoint 2016</li>
+            </ul>
+          </p>
+          </div>
         </div>
+      </div>
       </div>
     </section>
 
     <!-- 作成物 -->
     <section class="py-5 container" id="create">
 
-      <h2 class="text-center mb-5">作成物</h2>
+      <h2 class="introduction mb-5">作成物</h2>
       <div class="row">
-        <div class="col-sm-12 col-lg-6 py-3 BG">
-          <h3>シンプル掲示板</h3>
-          <a href="https://github.com/Lassieena/bbs" class="btn" target="_blank">
-            <img class="" src="img/git.png" alt="Githubロゴ" width="30">
-          </a>
-          <a href="https://evening-castle-86474.herokuapp.com/" class="btn" target="_blank">
-            <img src="https://img.icons8.com/color/48/000000/heroku.png" width="30">
-          </a>
-          <p>Rubyを使って簡易掲示板を作った。投稿、編集、削除などの基本的な機能を実装した。</p>
-          <img src="img/conect1.png" alt="" class="createimg img-fluid">
+        <div class=" col-sm-12 col-lg-6 py-3">
+          <div class="border rounded">
+            <h3 class="card-header">シンプル掲示板</h3>
+            <div class="padding">
+              <a href="https://github.com/Lassieena/bbs" class="btn" target="_blank">
+                <img class="" src="img/git.png" alt="Githubロゴ" width="30">
+              </a>
+              <a href="https://evening-castle-86474.herokuapp.com/" class="btn" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/heroku.png" width="30">
+              </a>
+              <p>Rubyを使って簡易掲示板を作った。投稿、編集、削除などの基本的な機能を実装した。</p>
+              <img src="img/conect1.png" alt="" class="createimg img-fluid">
+            </div>
+          </div>
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-sm-12 col-lg-5 py-3 BG">
-          <h3>TwitterBot</h3>
-          <a href="https://github.com/Lassieena/node.js-Twitterbot" class="btn" target="_blank">
-            <img class="" src="img/git.png" alt="Githubロゴ" width="30">
-          </a>
-          <a href="https://twitter.com/bot87143630" class="btn" target="_blank">
-            <img class="" src="img/Twitter.svg" alt="Twitterロゴ" width="30">
-          </a>
-          <p>Node.jsを使ってTwitterBotを作成。ツイート機能と返信機能など簡単なことを実装した。現在は動いていません。</p>
-          <img src="img/conect2.png" alt="" class="createimg img-fluid">
+
+        <div class="col-sm-12 col-lg-6 py-3">
+          <div class="border rounded">
+            <h3 class="card-header">TwitterBot</h3>
+            <div class="padding">
+              <a href="https://github.com/Lassieena/node.js-Twitterbot" class="btn" target="_blank">
+                <img class="" src="img/git.png" alt="Githubロゴ" width="30">
+              </a>
+              <a href="https://twitter.com/bot87143630" class="btn" target="_blank">
+                <img class="" src="img/Twitter.svg" alt="Twitterロゴ" width="30">
+              </a>
+              <p>Node.jsを使ってTwitterBotを作成。ツイート機能(画像投稿)と返信機能など簡単なことを実装した。現在は動いていません。</p>
+              <img src="img/conect2.png" alt="" class="createimg img-fluid">
+            </div>
+          </div>
         </div>
       </div>
     </section>
