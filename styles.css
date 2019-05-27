@@ -8,6 +8,8 @@ body {
 
 }
 
+
+
 .cover {
   background: url(img/kiyomizu.jpg);
   background-size: cover;
@@ -40,6 +42,7 @@ body {
 .LP {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
+  user-select: none;
 }
 
 /* body  {
