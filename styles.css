@@ -10,8 +10,11 @@ body {
 
 a {
   display: block;
-  padding: 0;
+  padding: 0px;
+  border: 0px;
 }
+
+
 
 .right {
   margin-right: 25px;
@@ -48,6 +51,7 @@ a {
   padding: 0.5em 1em;
   background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
   transition: .4s;
+  user-select: none;
 }
 
 .LP {
@@ -56,10 +60,6 @@ a {
   user-select: none;
 }
 
-/* body  {
-  background: #242232;
-  color: #fff;
-} */
 
 .fas {
   color: #FA2672;
