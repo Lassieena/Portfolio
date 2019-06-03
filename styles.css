@@ -5,7 +5,10 @@ body {
     Meiryo,
     'ＭＳ Ｐゴシック',
     sans-serif;
+}
 
+html {
+  overflow-y: scroll;
 }
 
 a {
