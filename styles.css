@@ -17,10 +17,13 @@ a {
   display: block;
   padding: 0px;
   border: 0px;
+<<<<<<< HEAD
 }
 
 a:hover {
   text-decoration: none;
+=======
+>>>>>>> 65d7985dbbb7e74f3749b4c61ff3080b314d53ea
 }
 
 
@@ -84,6 +87,7 @@ a:hover {
 .padding {
   padding: 12px 20px;
 }
+<<<<<<< HEAD
 
 .mylarge {
   font-size: 1.35em;
@@ -92,3 +96,5 @@ a:hover {
 .mylarges {
   font-size: 1.15em;
 }
+=======
+>>>>>>> 65d7985dbbb7e74f3749b4c61ff3080b314d53ea
