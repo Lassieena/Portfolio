@@ -13,10 +13,14 @@ html {
 
 
 a {
+  color: inherit;
   display: block;
   padding: 0px;
   border: 0px;
-  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 
@@ -79,4 +83,12 @@ a {
 
 .padding {
   padding: 12px 20px;
+}
+
+.mylarge {
+  font-size: 1.35em;
+}
+
+.mylarges {
+  font-size: 1.15em;
 }
