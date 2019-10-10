@@ -35,13 +35,16 @@ a:hover {
 }
 
 .cover {
-  background: url(img/kiyomizu.jpg);
+  background: url(img/haikei1.jpg);
   background-size: cover;
 }
 
 .Portfolio {
-  font-family: 'Tangerine',
+  font-family: 'Caveat',
     cursive;
+  font-size: 25px;
+  margin: 0 0;
+  margin-right: 10px;
 }
 
 .botom {
