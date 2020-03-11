@@ -1,3 +1,2 @@
-# ラッシーナのPortfolio
 
 # Portfolio_parents
